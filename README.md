@@ -24,7 +24,7 @@
 
 Directory description:
 
-'data': default dataset path.
+'data/20news': default dataset path.
 
 'embedding_dir': word embedding file path. 
 
