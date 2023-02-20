@@ -32,18 +32,11 @@ Directory description:
 
 'embedding_dir/word2vec_glove.6B.100d.txt.bin': 100-dimension Glove word embedding dictionary file.
 
-'corpus_obj.bin': Preprocessed 20NewsGroup binary corpus for rapid load and training if '--rapid' is true.
+'corpus_obj.bin': Preprocessed 20NewsGroup binary corpus for rapid load and training.
 
 
 Run:
 	
-	python run.py 	--topics <the number of topics>
-					--n-hidden <the number of hidden units>
-				  	--lr <learning rate>
-					--dropout <probabilty of dropout layer>
-					--topicembedsize <the dimension number of topic embeddings and word embeddings >
-					--batch-size <batch size for training>
-					--data-path <ur own datapath>
-					--coel <coefficient for Sinkhorn divergence term>
-					--coea <coefficient for STDR>
-					--topk <the number of top words to extract by STDR>
+	python run.py --topics 50 --batch-size=64 --lr=1e-4 --coel=0.1 --coea=5.0 --topk=10
+
+
