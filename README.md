@@ -34,8 +34,11 @@ Directory description:
 
 'corpus_obj.bin': Preprocessed 20NewsGroup binary corpus for rapid load and training.
 
+---
 
 Run:
+
+Download the word embedding file form the link given in "embedding_dir/download_link.md". Then u can run the model by:
 	
 	python run.py --topics 50 --batch-size=64 --lr=1e-4 --coel=0.1 --coea=5.0 --topk=10
 
