@@ -43,7 +43,7 @@ Download the word embedding file form the link given in "embedding_dir/download_
 	python run.py --topics 50 --batch-size=64 --lr=1e-4 --coel=0.1 --coea=5.0 --topk=10
 
 ---
-if u find this code useful, plz kindly cite paper:
+if u find this code useful, plz kindly cite our paper:
 
 	@article{LIU2022102864,
 	title = {Improving neural topic modeling via Sinkhorn divergence},
