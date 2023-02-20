@@ -25,10 +25,15 @@
 Directory description:
 
 'data': default dataset path.
+
 'embedding_dir': word embedding file path. 
+
 'sav':  checkpoint file path. 
+
 'embedding_dir/word2vec_glove.6B.100d.txt.bin': 100-dimension Glove word embedding dictionary file.
+
 'corpus_obj.bin': Preprocessed 20NewsGroup binary corpus for rapid load and training if '--rapid' is true.
+
 
 Run:
 	
