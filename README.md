@@ -1,7 +1,5 @@
 # Code for "Improving neural topic modeling via Sinkhorn divergence"
 
---- 
-
 ## Requirements:
 	python3.8	
 
@@ -17,7 +15,6 @@
 
 	prefect_generator
 
----
 
 
 ## Note:
@@ -34,15 +31,15 @@ Directory description:
 
 'corpus_obj.bin': Preprocessed 20NewsGroup binary corpus for rapid load and training.
 
----
 
-Run:
+## Run:
 
 Download the word embedding file form the link given in "embedding_dir/download_link.md". Then u can run the model by:
 	
 	python run.py --topics 50 --batch-size=64 --lr=1e-4 --coel=0.1 --coea=5.0 --topk=10
 
----
+## Cite
+
 if u find this code useful, plz kindly cite our paper:
 
 	@article{LIU2022102864,
